@@ -1,0 +1,22 @@
+@import "macchiato.css";
+
+* {
+  /* reference the color by using @color-name */
+  color: #ffffff;
+}
+
+window#waybar {
+  /* you can also GTK3 CSS functions! */
+  background-color: rgba(0, 0, 0, 0.4); 
+  border-radius: 0.7rem
+}
+
+#tray menu {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#tray::after {
+   contient: "|"
+}
+
+

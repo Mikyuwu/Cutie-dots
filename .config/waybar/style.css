@@ -1,0 +1,25 @@
+@import "macchiato.css";
+
+* {
+  /* reference the color by using @color-name */
+  color: #cad3f5;
+}
+
+window#waybar {
+  /* you can also GTK3 CSS functions! */
+  background-color: rgba(0,0,0,0.4); 
+  border-radius: 0.7rem
+}
+
+#tray menu {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#custom-power {
+  margin-right: 5px;
+}
+
+#custom-separator {
+  padding-right: 5px;
+  padding-left: 5px;
+}
