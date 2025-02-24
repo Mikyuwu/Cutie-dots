@@ -30,5 +30,15 @@
   "scalingPriority": "gdk",
   "bar.battery.label": true,
   "theme.font.name": "Fira Code",
-  "theme.font.label": "Fira Code Medium"
+  "theme.font.label": "Fira Code Medium",
+  "bar.bluetooth.label": false,
+  "theme.bar.buttons.bluetooth.enableBorder": false,
+  "bar.systray.ignore": [
+    "jetbrains-toolbox"
+  ],
+  "bar.clock.showIcon": true,
+  "bar.clock.showTime": true,
+  "bar.clock.format": "%a %b %d %I:%M %p",
+  "bar.network.label": false,
+  "bar.network.showWifiInfo": true
 }
