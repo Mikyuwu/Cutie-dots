@@ -40,5 +40,6 @@
   "bar.clock.showTime": true,
   "bar.clock.format": "%a %b %d %I:%M %p",
   "bar.network.label": false,
-  "bar.network.showWifiInfo": true
+  "bar.network.showWifiInfo": true,
+  "menus.clock.weather.unit": "metric"
 }

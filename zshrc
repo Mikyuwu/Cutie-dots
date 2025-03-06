@@ -106,3 +106,5 @@ source $ZSH/oh-my-zsh.sh
 if [ "$TERM" = "xterm-kitty" ]; then 
     sh ~/.config/hypr/Scripts/RandomEevee.sh 
 fi 
+
+alias hyfetch="hyfetch --ascii-file ~/.config/fastfetch/logo"
